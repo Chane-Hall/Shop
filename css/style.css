@@ -35,11 +35,7 @@ a.hs {
 	margin-top: 0px;
 	margin: 0px;
 	text-decoration: none;}
-.foot{
-	width:96.5%;
-	position: absolute;
-		bottom: 10%;
-}
+
 ul.head li:hover {
 	text-decoration: underline;}
 	
@@ -51,17 +47,17 @@ img.head{
 }
 
 #name{
-		border-top: 2px white solid;
-		border-bottom: 2px white solid;
-		margin-top: 70px;
+		border: white solid 2px;
+		margin-top: 50px;
 		margin-left: auto;
 		margin-right: auto;
-		height: 200px;
+		padding: 40px;
 		width:70%;
+		background-color: rgba(0,0,0,0.6)
 }
 #home{
 	text-align: center;
-	padding-top: 70px;
+	
 	margin: auto;
 	font-size: 64px;}
 
@@ -78,7 +74,7 @@ img.pro{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-radius:40px;
-	background-color: rgba(255,255,255,0.9)
+	background-color: rgba(255,255,255,0.7);
 }
 
 .cat{
@@ -113,7 +109,7 @@ p{
 		margin-top: 20px;
 		margin-left: auto;
 		margin-right: auto;
-		width:70%;
+		width:100%;
 }
 #con{
 	position: absolute;
